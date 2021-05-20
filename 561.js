@@ -14,6 +14,8 @@
 
 // Problem link
 // https://leetcode.com/problems/array-partition-i/
+
+// 풀이: sort 해주고 각 두개중에 작은것들을 더하면 답이 나온다. 
 var arrayPairSum = function(nums) {
     nums.sort((a, b) => (a - b));
     let result = 0;
