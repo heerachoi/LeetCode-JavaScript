@@ -24,5 +24,9 @@ var isPowerOfFour = function(n) {
     return true;
 };
 
-let n = 8;
+let n = 20;
 console.log(isPowerOfFour(n));
+
+// note - n value can be negative
+//1, 4: true
+//-2147483648, 0, 8, 20: false
