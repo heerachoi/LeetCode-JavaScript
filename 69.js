@@ -31,8 +31,7 @@ var mySqrt = function(x) {
     return x < hi * hi ? hi - 1 : hi; 
 };
 
-mySqrt("6"); //result = 2
-
+console.log(mySqrt("8"));  //result = 2
 
 // built-in exponent function
 var mySqrtBuiltIn = function(x) {
